@@ -11,9 +11,7 @@ public class Main {
             public String meth(){
                 return "Method is overridden in Extended class B ";
             }
-            protected Object clone() throws CloneNotSupportedException {
-                return super.clone();
-            }
+
         }
 
     public static void main(String[] args) {
